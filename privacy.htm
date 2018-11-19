@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://www.bmw-motorrad.co.uk/en/world-of-bmw/rider-training.html -->
+<html class="mnm-nsc gr__bmw-motorrad_co_uk">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/fonts-bmw-default.min.20180612161948.min.css" type="text/css">
+    <title>motorradtraining.co.uk | Rider Training</title>
+    <style type="text/css">
+    /* Tiny reset thingy */
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+        /* The height needs to be set to a fixed value for the effect to work.  * 100vh is the full height of the viewport. */
+        height: 100vh;
+        /*width: 100vw;*/
+        /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+        overflow-x: hidden;
+        /* Enable scrolling on the page. */
+        overflow-y: auto;
+        /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+        perspective: 2px;
+    }
+
+    .section {
+        /* Needed for children to be absolutely positioned relative to the parent. */
+        position: relative;
+        /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+        height: 60vh;
+
+        /* For text formatting. */
+        /*display: flex;*/
+        align-items: center;
+        justify-content: center;
+        /*text-shadow: 0 0 5px #000;*/
+        padding-top: 20px;
+    }
+
+    section.hero {
+        max-height: 400px;
+    }
+
+    .parallax::after {
+        /* Display and position the pseudo-element */
+        content: " ";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+        transform: translateZ(-1px) scale(1.5);
+        /* Force the background image to fill the whole element. */
+        background-size: 100%;
+        /* Keep the image from overlapping sibling elements. */
+        z-index: -1;
+    }
+    /* The styling for the static div. */
+
+    .static {
+        background: #fff;
+        vertical-align: middle;
+        height: unset;
+    }
+    /* Sets the actual background images to adorable kitties. This part is crucial. */
+
+    .bg1::after {
+        background-image: url('img/hero.png');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .bg2::after {
+        background-image: url('img/image2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    header {
+        /*position: fixed;*/
+        /*top: 0;*/
+        height: 34px;
+        border-bottom: 1px solid #eee;
+        /*background-color: #eee;*/
+    }
+
+    nav {
+        font-family: mnm-font-bmw;
+        padding: 6px;
+    }
+
+    #logo {
+        position: absolute;
+        right: 19px;
+        top: 7px;
+        z-index: 100;
+        width: 14vw;
+        min-width: 100px;
+    }
+    /*    .intro {
+        padding-top: 13px;
+        padding-right: 5px;
+        padding-left: 5px;
+        transition: margin-top .8s, opacity .8s;
+        line-height: 45px;
+        padding-bottom: 5px;
+    }
+*/
+
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        font-size: 28px;
+        line-height: 28px;
+        /*border-bottom: 7.6px solid rgb(22, 23, 26);*/
+        opacity: 1;
+
+        font-family: mnm-font-bmw;
+        font-style: italic;
+        font-weight: 700;
+        text-transform: uppercase;
+        /*text-decoration: underline;*/
+        text-align: center;
+    }
+    /* h1:after { content: ''; width: 100%; position: absolute; left: 0; bottom: 1px; border-width: 0 0 1px; border-style: solid; }*/
+
+    h2 {
+        margin-top: 20px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        font-size: 14px;
+        line-height: 14px;
+        opacity: 1;
+
+        font-family: mnm-font-bmw;
+        font-style: italic;
+        /*font-weight: 700;*/
+        text-transform: uppercase;
+
+        text-align: center;
+    }
+
+    section.courses {
+        /*height: 300px;*/
+    }
+
+    section.footer {
+        margin: auto;
+        font-family: mnm-font-bmw;
+        margin: 0;
+        padding: 0px;
+        padding-top: 40px;
+        width: 100%;
+        background-color: #eee;
+        height: 200px;
+    }
+
+    section>div {
+        font-family: arial;
+        font-size: 12px;
+        line-height: 26px;
+        color: #16171a;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 20px;
+        font-style: normal;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section>div.map {
+        margin: 0;
+        width: 100%;
+    }
+
+    section>div.footer {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        /*width: 100%;*/
+        line-height: 18px;
+    }
+
+    div.site>a,
+    div.email>a,
+    div.phone>a,
+    button>a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    #map {
+        height: 420px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+    }
+
+    div.panel {
+        margin-top: 10px;
+        background: #eee;
+        padding: 20px;
+    }
+
+    div.panel>table {
+        width: 100%;
+    }
+
+    div.course {
+        font-weight: bold;
+        font-size: 1.2em;
+        /*text-align: center;*/
+        float: left;
+        width: 100%;
+    }
+
+    div.price {
+        vertical-align: top;
+        font-weight: bold;
+        font-size: 18px;
+        /*text-align: center;*/
+        float: left;
+        width: 160px;
+        padding-bottom: 10px;
+    }
+
+    div.button {
+        vertical-align: top;
+        text-align: center;
+        float: left;
+        width: 160px;
+        /*width: 100%;*/
+    }
+
+    div.description {
+        vertical-align: top;
+        line-height: unset;
+        float: left;
+        width: 100%;
+    }
+
+    div.clear {
+        clear: both;
+    }
+
+    button {
+        text-align: center;
+        font-size: 16px;
+        width: 140px;
+        border: 1px solid white;
+        margin-bottom: 8px;
+        /*padding-right: 8px;*/
+        /*margin: 2px;*/
+        float: left;
+    }
+
+    @media (min-width: 768px) {
+        #logo {
+            top: 20px;
+            right: 20px;
+            padding: 2px;
+        }
+        h1 {
+            font-size: 56px;
+            line-height: 56px;
+        }
+        h2 {
+            font-size: 28px;
+            line-height: 28px;
+        }
+        section>div {
+            font-size: 14px;
+        }
+        div.course {
+            float: left;
+            width: 78%;
+        }
+        div.description {
+            float: left;
+            width: 78%;
+        }
+        div.price {
+            float: right;
+            /*width: 20%;*/
+            text-align: center;
+        }
+        div.button {
+            float: right;
+            /*width: 20%;*/
+            text-align: center;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>0131 603 5466</nav>
+        <img id="logo" src="img/mt.svg" alt="en_GB">
+    </header>
+    <main class="wrapper">
+        <section class="section parallax bg1 hero">
+        </section>
+        <section class="section static">
+            <h1>MOTORRAD TRAINING.</h1>
+            <h2>NO MATTER WHAT YOU NEED, WE'VE GOT IT.</h2>
+            <div class="copy">Motorrad Training offers a comprehensive range of courses, from Compulsory Basic Training (CBT) and Direct Access (DAS) for novice riders, through to advanced post-test training for experienced motorcyclists.</div>
+            <br/>
+        </section>
+        <section class="section parallax bg2">
+        </section>
+        <section class="section static courses">
+            <h2>PRIVACY</h2>
+            <div class="panel">
+                <div class="course">PRIVACY POLICY</div>
+                <div class="clear"></div>
+                <div>
+                    <p>This privacy policy sets out the details of how we collect and use personal information gathered from our interactions with customers and potential customers. In this context ‘we’ means Motorrad Central (Scotland) Limited and Motorrad Training Limited. It also includes rentamotorcycle.co.uk which is a trading name used by Motorrad Central (Scotland) Limited.</p>
+                    <p>If you have a query regarding our privacy policy or any information held by us, please contact us:</p>
+                    <p>The Data Protection Officer
+                        <br/> Motorrad Central (Scotland) Limited and Motorrad Training Limited
+                        <br/> 226 High Street
+                        <br/> Dalkieth
+                        <br/> Midlothian EH22 1AZ
+                        <br/> Tel: +44 (0)131 654 2777
+                        <br/> Email: <a href="mailto:contact@motorradcentral.com">contact@motorradcentral.com</a>
+                        <br/>
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="panel">
+                <div class="course">PRIVACY STATEMENT</div>
+                <div class="clear"></div>
+                <div>
+                    <p>We have to keep a little bit of your personal data, such as your name, email address, payment details and driving licence information to enable us to do business with you. This includes</p>
+                    <ul>
+                        <li>the sale, rental and service of motorcycles;</li>
+                        <li>carrying out technical campaigns and recalls and informing you of these;</li>
+                        <li>providing you with information about our services and offers; and</li>
+                        <li>activities relating to the items above.</li>
+                    </ul>
+                    <p>Your personal data is managed securely and is not sold to any third parties. We only pass personal data to businesses that need your personal data for legitimate reasons, such as the DVLA or the manufacturers that we represent. Further information is included in the privacy policy below.</p>
+                    <p>Finally, we will always give you the option not to receive marketing communications from us and you can always update your marketing preferences by contacting us.</p>
+                    <p>The contents of this statement may change from time to time so you may wish to check this page occasionally to ensure you are still happy to share your personal data with us.</p>
+                    <p>We collect data through face-to-face contact, through our websites (motorradcentral.com, rentamotorcycle.co.uk and motorradtraining.co.uk), via our social media activitities, over the telephone and via BMW UK websites.</p>
+                    <p>In the event that a data breach occurs which involves your personal information leaving our control, we will take the following actions:</p>
+                    <ul>
+                        <li>We will notify you of the data breach as soon as we become aware of it where it is likely to adversely affect you;</li>
+                        <li>We will provide you with a summary of the incident relating to the data breach;</li>
+                        <li>We will clearly identify the nature and content of your personal data which is the subject of the data breach; and</li>
+                        <li>We will suggest measure that you may take to mitigate any possible adverse impact.</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section class="section static courses">
+            <h2>COOKIES</h2>
+            <div class="panel">
+                <div class="course">USE OF COOKIES</div>
+                <div class="clear"></div>
+                <div>
+                    <p>Cookies are small files that a site or its service provider transfers to your computer's hard drive through your Web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information. For instance, we use cookies to help us remember and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.</p>
+                    <p>We use cookies to:</p>
+                    <ul>
+                        <li>Understand and save your preferences for future visits.</li>
+                        <li>Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We may also use trusted third party services that track this information on our behalf.</li>
+                    </ul>
+                    <p>You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Each browser is a little different, so look at your browser's Help menu to learn the correct way to modify your cookies.</p>
+                    <p>If you disable cookies, some features will be disabled It may affect the user experience that make our site more efficient and some of our services may not function properly.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="panel">
+                <div class="course">TARGETING COOKIES</div>
+                <div class="clear"></div>
+                <div>
+                    <p>Targeting cookies collect information about your browsing habits to deliver adverts which are more relevant to you and your interests. They also measure the effectiveness of advertising campaigns.</p>
+                    <p>We do not use targeting cookies.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section class="section static courses">
+            <h2>THIRD PARTY</h2>
+            <div class="panel">
+                <div class="course">THIRD PARTY DISCLOSURE</div>
+                <div class="clear"></div>
+                <div>
+                    <p>We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide you with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is to comply with the law, enforce our site policies, or protect ours or others' rights, property, or safety.</p>
+                    <p>However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="panel">
+                <div class="course">THIRD PARTY LINKS</div>
+                <div class="clear"></div>
+                <div>
+                    <p>Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="panel">
+                <div class="course">DO NOT TRACK</div>
+                <div class="clear"></div>
+                <div>
+                    <p>We honour Do Not Track Signals and do not track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="panel">
+                <div class="course">BEHAVIOURAL TRACKING</div>
+                <div class="clear"></div>
+                <div>
+                    <p>We do not allow third party behavioral tracking.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section class="section static courses">
+            <h2>COMPLAINTS</h2>
+            <div class="panel">
+                <div class="course">THE INFORMATION COMMISSIONERS OFFICE</div>
+                <div class="clear"></div>
+                <div>
+                    <p>If you have a complaint about the use of your personal information then you can inform the Information Commissioner’s Office (UK Regulatory Body) via their website:</p>
+                    <a href="https://ico.org.uk/concerns/">https://ico.org.uk/concerns/</a></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section class="section static footer">
+            <div class="footer">
+                <table style="border: none; font-size: 14px;">
+                    <tr>
+                        <td style="border-right: 2px solid #1186C8; padding-right: 10px;">
+                            <a href="http://www.motorradtraining.co.uk"><img src="img/logo.png" width="100"/><a>
+                        </td>
+                        <td style="padding-left: 10px; font-size: 0.7em; color: #333; text-decoration: none;">
+                            <div class="name" style="font-weight: bold;">Motorrad Training</div>
+                            <div class="title"><i>Unit 7a/2, Dalhousie Business Park, Bonnyrigg, EH19 3HY</i></div>
+                            <div class="site"><a href="http://www.motorradtraining.co.uk">www.motorradtraining.co.uk</a></div>
+            <div class="email"><a href="mailto:info@motorradtraining.co.uk">info@motorradtraining.co.uk</a></div>
+            <div class="phone"><a href="tel:0131 603 5466">0131 603 5466</a><span style="padding-left: 6px; padding-right: 6px; color: #1186C8"></span></div>
+            <div style="padding-top: 14px">
+                <a href="https://www.facebook.com/motorradtrain/"><img id="facebook" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/37c183ed-cd47-4691-b9bc-d845c54c4806.png" /></a>
+                <a href="https://twitter.com/motorradtrain/"><img id="twitter" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/c694d6b5-4e53-4bd8-b9e8-a61923f4cffe.png" /></a>
+                <a href="https://www.linkedin.com/company/motorradtraining/"><img id="linkedin" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/1a5e6c32-a0d1-4e06-9566-2a9ff1f55677.png" /></a>
+                <a href="https://www.instagram.com/motorradtraining.co.uk/"><img id="instagram" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/20733471-d8c0-4262-85f5-542b336a5ea1.png" /></a>
+                <!--                <a href="https://plus.google.com/102577746454575177233"><img id="google" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/5438a100-4e5e-4172-9202-5a3c7a936350.png" /></a> -->
+            </div>
+            </td>
+            </tr>
+            </table>
+            </div>
+        </section>
+    </main>
+    <script>
+    // Initialize and add the map
+    function initMap() {
+        var mt = { lat: 55.861951, lng: -3.090669 };
+        var centre = { lat: 55.98, lng: -3.090669 };
+        var map = new google.maps.Map(
+            document.getElementById('map'), { zoom: 9, center: centre, gestureHandling: 'cooperative' });
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({ position: mt, map: map });
+
+        var contentString = '<div>Motorrad Training,<br/>Dalhousie Business Park,<br/>Bonnyrigg, EH19 3HY<br/><br/><a href="mailto:info@motorradtraining.co.uk">info@motorradtraining.co.uk</a><br/><a href="tel:0131 603 5466">0131 603 5466</a><br/><br/><a href="https://www.google.co.uk/maps/dir//motorradtraining.co.uk,+Dalhousie+Business+Park,+Bonnyrigg+EH19+3HY/@55.8618685,-3.093032,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4887bf8550a71ac3:0x626489e49991d6c3!2m2!1d-3.0908433!2d55.8618655!3e0">Get directions</a></div>';
+
+        var infowindow = new google.maps.InfoWindow({ content: contentString });
+
+        infowindow.open(map, marker);
+    }
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkKu4_iIWJir4wQ-VKRzR3XE0lU9eJsqg&callback=initMap">
+    </script>
+</body>
+
+</html>
