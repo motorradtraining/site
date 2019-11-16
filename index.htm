@@ -12,15 +12,18 @@
         gtag('config', 'UA-130962817-1');
     </script>
     <!-- Global site tag (gtag.js) - Google Ads: 790461407 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-790461407"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-790461407');
-</script>
-    <meta name="description" content="Motorrad Training offers a comprehensive range of courses, from Compulsory Basic Training (CBT) and Direct Access (DAS) for novice riders, through to advanced post-test training for experienced motorcyclists." />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-790461407"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-790461407');
+    </script>
+    <!-- TrustBox script -->
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    <!-- End TrustBox script -->
+    <meta name="description"
+        content="Motorrad Training offers a comprehensive range of courses, from Compulsory Basic Training (CBT) and Direct Access (DAS) for novice riders, through to advanced post-test training for experienced motorcyclists." />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -47,105 +50,108 @@
     <link rel="stylesheet" href="css/fonts-bmw-default.min.20180612161948.min.css" type="text/css">
     <title>motorradtraining.co.uk | Rider Training</title>
     <style type="text/css">
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-    }
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
 
-    .wrapper {
-        /* The height needs to be set to a fixed value for the effect to work.  * 100vh is the full height of the viewport. */
-        height: 100vh;
-        /*width: 100vw;*/
-        /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-        overflow-x: hidden;
-        /* Enable scrolling on the page. */
-        overflow-y: auto;
-        /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-        perspective: 2px;
-    }
+        .wrapper {
+            /* The height needs to be set to a fixed value for the effect to work.  * 100vh is the full height of the viewport. */
+            height: 100vh;
+            /*width: 100vw;*/
+            /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+            overflow-x: hidden;
+            /* Enable scrolling on the page. */
+            overflow-y: auto;
+            /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+            perspective: 2px;
+        }
 
-    .section {
-        /* Needed for children to be absolutely positioned relative to the parent. */
-        position: relative;
-        /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-        height: 60vh;
+        .section {
+            /* Needed for children to be absolutely positioned relative to the parent. */
+            position: relative;
+            /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+            height: 60vh;
 
-        /* For text formatting. */
-        /*display: flex;*/
-        align-items: center;
-        justify-content: center;
-        /*text-shadow: 0 0 5px #000;*/
-        padding-top: 20px;
-    }
+            /* For text formatting. */
+            /*display: flex;*/
+            align-items: center;
+            justify-content: center;
+            /*text-shadow: 0 0 5px #000;*/
+            padding-top: 20px;
+        }
 
-    section.hero {
-        max-height: 400px;
-    }
+        section.hero {
+            max-height: 400px;
+        }
 
-    .parallax::after {
-        /* Display and position the pseudo-element */
-        content: " ";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+        .parallax::after {
+            /* Display and position the pseudo-element */
+            content: " ";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
 
-    /* Move the pseudo-element back away from the camera,
+            /* Move the pseudo-element back away from the camera,
      * then scale it back up to fill the viewport.
      * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-        transform: translateZ(-1px) scale(1.5);
-        /* Force the background image to fill the whole element. */
-        background-size: 100%;
-        /* Keep the image from overlapping sibling elements. */
-        z-index: -1;
-    }
-    /* The styling for the static div. */
+            transform: translateZ(-1px) scale(1.5);
+            /* Force the background image to fill the whole element. */
+            background-size: 100%;
+            /* Keep the image from overlapping sibling elements. */
+            z-index: -1;
+        }
 
-    .static {
-        background: #fff;
-        vertical-align: middle;
-        height: unset;
-    }
-    /* Sets the actual background images to adorable kitties. This part is crucial. */
+        /* The styling for the static div. */
 
-    .bg1::after {
-        background-image: url('img/hero.png');
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: cover;
-    }
+        .static {
+            background: #fff;
+            vertical-align: middle;
+            height: unset;
+        }
 
-    .bg2::after {
-        background-image: url('img/image2.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
+        /* Sets the actual background images to adorable kitties. This part is crucial. */
 
-    header {
-        /*position: fixed;*/
-        /*top: 0;*/
-        height: 34px;
-        border-bottom: 1px solid #eee;
-        /*background-color: #eee;*/
-    }
+        .bg1::after {
+            background-image: url('img/hero.png');
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+        }
 
-    nav {
-        font-family: mnm-font-bmw;
-        padding: 6px;
-    }
+        .bg2::after {
+            background-image: url('img/image2.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
 
-    #logo {
-        position: absolute;
-        right: 19px;
-        top: 7px;
-        z-index: 100;
-        width: 14vw;
-        min-width: 100px;
-    }
-    /*    .intro {
+        header {
+            /*position: fixed;*/
+            /*top: 0;*/
+            height: 34px;
+            border-bottom: 1px solid #eee;
+            /*background-color: #eee;*/
+        }
+
+        nav {
+            font-family: mnm-font-bmw;
+            padding: 6px;
+        }
+
+        #logo {
+            position: absolute;
+            right: 19px;
+            top: 7px;
+            z-index: 100;
+            width: 14vw;
+            min-width: 100px;
+        }
+
+        /*    .intro {
         padding-top: 13px;
         padding-right: 5px;
         padding-left: 5px;
@@ -155,190 +161,198 @@
     }
 */
 
-    h1 {
-        margin-top: 50px;
-        margin-bottom: 0px;
-        transform: matrix(1, 0, 0, 1, 0, 0);
-        font-size: 28px;
-        line-height: 28px;
-        /*border-bottom: 7.6px solid rgb(22, 23, 26);*/
-        opacity: 1;
-
-        font-family: mnm-font-bmw;
-        font-style: italic;
-        font-weight: 700;
-        text-transform: uppercase;
-        /*text-decoration: underline;*/
-        text-align: center;
-    }
-    /* h1:after { content: ''; width: 100%; position: absolute; left: 0; bottom: 1px; border-width: 0 0 1px; border-style: solid; }*/
-
-    h2 {
-        margin-top: 20px;
-        transform: matrix(1, 0, 0, 1, 0, 0);
-        font-size: 14px;
-        line-height: 14px;
-        opacity: 1;
-
-        font-family: mnm-font-bmw;
-        font-style: italic;
-        /*font-weight: 700;*/
-        text-transform: uppercase;
-
-        text-align: center;
-    }
-
-    section.courses {
-        /*height: 300px;*/
-    }
-
-    section.footer {
-        margin: auto;
-        font-family: mnm-font-bmw;
-        margin: 0;
-        padding: 0px;
-        padding-top: 40px;
-        width: 100%;
-        background-color: #eee;
-        height: 200px;
-    }
-
-    section>div {
-        font-family: arial;
-        font-size: 12px;
-        line-height: 26px;
-        color: #16171a;
-        font-weight: normal;
-        margin: 0;
-        margin-bottom: 20px;
-        font-style: normal;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    section>div.map {
-        margin: 0;
-        width: 100%;
-    }
-
-    section>div.footer {
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-        /*width: 100%;*/
-        line-height: 18px;
-    }
-
-    div.site>a,
-    div.email>a,
-    div.phone>a,
-    button>a {
-        color: #333;
-        text-decoration: none;
-    }
-
-    #map {
-        height: 420px;
-        /* The height is 400 pixels */
-        width: 100%;
-        /* The width is the width of the web page */
-    }
-
-    div.panel {
-        margin-top: 10px;
-        background: #eee;
-        padding: 20px;
-    }
-
-    div.panel>table {
-        width: 100%;
-    }
-
-    div.course {
-        font-weight: bold;
-        font-size: 1.2em;
-        /*text-align: center;*/
-        float: left;
-        width: 100%;
-    }
-
-    div.price {
-        vertical-align: top;
-        font-weight: bold;
-        font-size: 18px;
-        /*text-align: center;*/
-        float: left;
-        width: 160px;
-        padding-bottom: 10px;
-    }
-
-    div.button {
-        vertical-align: top;
-        text-align: center;
-        float: left;
-        width: 160px;
-        /*width: 100%;*/
-    }
-
-    div.description {
-        vertical-align: top;
-        line-height: unset;
-        float: left;
-        width: 100%;
-    }
-
-    div.clear {
-        clear: both;
-    }
-
-    button {
-        text-align: center;
-        font-size: 16px;
-        width: 140px;
-        border: 1px solid white;
-        margin-bottom: 8px;
-        /*padding-right: 8px;*/
-        /*margin: 2px;*/
-        float: left;
-    }
-
-    @media (min-width: 768px) {
-        #logo {
-            top: 20px;
-            right: 20px;
-            padding: 2px;
-        }
         h1 {
-            font-size: 56px;
-            line-height: 56px;
-        }
-        h2 {
+            margin-top: 50px;
+            margin-bottom: 0px;
+            transform: matrix(1, 0, 0, 1, 0, 0);
             font-size: 28px;
             line-height: 28px;
+            /*border-bottom: 7.6px solid rgb(22, 23, 26);*/
+            opacity: 1;
+
+            font-family: mnm-font-bmw;
+            font-style: italic;
+            font-weight: 700;
+            text-transform: uppercase;
+            /*text-decoration: underline;*/
+            text-align: center;
         }
-        section>div {
+
+        /* h1:after { content: ''; width: 100%; position: absolute; left: 0; bottom: 1px; border-width: 0 0 1px; border-style: solid; }*/
+
+        h2 {
+            margin-top: 20px;
+            transform: matrix(1, 0, 0, 1, 0, 0);
             font-size: 14px;
+            line-height: 14px;
+            opacity: 1;
+
+            font-family: mnm-font-bmw;
+            font-style: italic;
+            /*font-weight: 700;*/
+            text-transform: uppercase;
+
+            text-align: center;
         }
+
+        section.courses {
+            /*height: 300px;*/
+        }
+
+        section.footer {
+            margin: auto;
+            font-family: mnm-font-bmw;
+            margin: 0;
+            padding: 0px;
+            padding-top: 40px;
+            width: 100%;
+            background-color: #eee;
+            height: 200px;
+        }
+
+        section>div {
+            font-family: arial;
+            font-size: 12px;
+            line-height: 26px;
+            color: #16171a;
+            font-weight: normal;
+            margin: 0;
+            margin-bottom: 20px;
+            font-style: normal;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        section>div.map {
+            margin: 0;
+            width: 100%;
+        }
+
+        section>div.footer {
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+            /*width: 100%;*/
+            line-height: 18px;
+        }
+
+        div.site>a,
+        div.email>a,
+        div.phone>a,
+        button>a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        #map {
+            height: 420px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+
+        div.panel {
+            margin-top: 10px;
+            background: #eee;
+            padding: 20px;
+        }
+
+        div.panel>table {
+            width: 100%;
+        }
+
         div.course {
+            font-weight: bold;
+            font-size: 1.2em;
+            /*text-align: center;*/
             float: left;
-            width: 78%;
+            width: 100%;
         }
-        div.description {
-            float: left;
-            width: 78%;
-        }
+
         div.price {
-            float: right;
-            /*width: 20%;*/
-            text-align: center;
+            vertical-align: top;
+            font-weight: bold;
+            font-size: 18px;
+            /*text-align: center;*/
+            float: left;
+            width: 160px;
+            padding-bottom: 10px;
         }
+
         div.button {
-            float: right;
-            /*width: 20%;*/
+            vertical-align: top;
             text-align: center;
+            float: left;
+            width: 160px;
+            /*width: 100%;*/
         }
-    }
+
+        div.description {
+            vertical-align: top;
+            line-height: unset;
+            float: left;
+            width: 100%;
+        }
+
+        div.clear {
+            clear: both;
+        }
+
+        button {
+            text-align: center;
+            font-size: 16px;
+            width: 140px;
+            border: 1px solid white;
+            margin-bottom: 8px;
+            /*padding-right: 8px;*/
+            /*margin: 2px;*/
+            float: left;
+        }
+
+        @media (min-width: 768px) {
+            #logo {
+                top: 20px;
+                right: 20px;
+                padding: 2px;
+            }
+
+            h1 {
+                font-size: 56px;
+                line-height: 56px;
+            }
+
+            h2 {
+                font-size: 28px;
+                line-height: 28px;
+            }
+
+            section>div {
+                font-size: 14px;
+            }
+
+            div.course {
+                float: left;
+                width: 78%;
+            }
+
+            div.description {
+                float: left;
+                width: 78%;
+            }
+
+            div.price {
+                float: right;
+                /*width: 20%;*/
+                text-align: center;
+            }
+
+            div.button {
+                float: right;
+                /*width: 20%;*/
+                text-align: center;
+            }
+        }
     </style>
 </head>
 
@@ -353,8 +367,10 @@
         <section class="section static">
             <h1>MOTORRAD TRAINING.</h1>
             <h2>NO MATTER WHAT YOU NEED, WE'VE GOT IT.</h2>
-            <div class="copy">Motorrad Training offers a comprehensive range of courses, from Compulsory Basic Training (CBT) and Direct Access (DAS) for novice riders, through to advanced post-test training for experienced motorcyclists.</div>
-            <br/>
+            <div class="copy">Motorrad Training offers a comprehensive range of courses, from Compulsory Basic Training
+                (CBT) and Direct Access (DAS) for novice riders, through to advanced post-test training for experienced
+                motorcyclists.</div>
+            <br />
         </section>
         <section class="section parallax bg2">
         </section>
@@ -363,27 +379,33 @@
             <div class="panel">
                 <div class="course">CBT PLUS</div>
                 <div class="description">
-                    <p>Designed to give candidates more skill and more confidence on the road. The perfect course for the beginner or the new rider who is limited in motorcycle exposure or concerned regarding the skills required in learning to ride.
-                        <br/>Offering 2-1 tuition (1 instructor to 2 students), a full day of off the road training and full day of on the road training (compared to minimum of 2-2.5 hours on the road 1 day CBT).</p>
+                    <p>Designed to give candidates more skill and more confidence on the road. The perfect course for
+                        the beginner or the new rider who is limited in motorcycle exposure or concerned regarding the
+                        skills required in learning to ride.
+                        <br />Offering 2-1 tuition (1 instructor to 2 students), a full day of off the road training and
+                        full day of on the road training (compared to minimum of 2-2.5 hours on the road 1 day CBT).</p>
                     <p>Day 1 - A combination of theory and introduction to motorcycling on our private training area.
-                        <br/> Day 2 - Continuing on from day 1 and venturing on to the road.</p>
+                        <br /> Day 2 - Continuing on from day 1 and venturing on to the road.</p>
                 </div>
                 <div class="price">£325</div>
                 <div class="button">
-                    <button><a href="mailto:info@motorradtraining.co.uk?subject=CBT Plus Enquiry" onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/19ZMCJO2_6wBEN_39fgC'});">enquire</a></button>
+                    <button><a href="mailto:info@motorradtraining.co.uk?subject=CBT Plus Enquiry"
+                            onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/19ZMCJO2_6wBEN_39fgC'});">enquire</a></button>
                 </div>
                 <div class="clear"></div>
             </div>
             <div class="panel">
                 <div class="course">CBT (Experienced / Renewal)</div>
                 <div class="description">
-                    <p>Best for riders who have already taken a CBT and are renewing their certificate or have ridden geared motorcycles extensively in the past.</p>
+                    <p>Best for riders who have already taken a CBT and are renewing their certificate or have ridden
+                        geared motorcycles extensively in the past.</p>
                     <p>Morning - A combination of theory and introduction to motorcycling on our private training area
-                        <br/> Afternoon - Continuing on from the morning and venturing on to the road.</p>
+                        <br /> Afternoon - Continuing on from the morning and venturing on to the road.</p>
                 </div>
                 <div class="price">£175</div>
                 <div class="button">
-                    <button><a href="mailto:info@motorradtraining.co.uk?subject=CBT Enquiry" onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/PmW1CLi0_6wBEN_39fgC'});">enquire</a></button>
+                    <button><a href="mailto:info@motorradtraining.co.uk?subject=CBT Enquiry"
+                            onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/PmW1CLi0_6wBEN_39fgC'});">enquire</a></button>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -393,13 +415,21 @@
             <div class="panel">
                 <div class="course">5 Day DAS / A2 Motorcycle Licence</div>
                 <div class="description">
-                    <p>You can get your full (category A) motorcycle licence using the direct access scheme (DAS) if you’re aged 24 or over. You’ll have to pass the motorcycle practical tests on a machine of at least 40 kW (53.6 bhp).
-                        <br/> Taking direct access means you’ll have a full motorcycle licence without previously holding a licence for a smaller bike for two years – you’ll have no restriction on the size of machine you can ride.
-                        <br/> The A2 Motorbike licence is designed for people between 19 - 23 years old. The A2 licence follows the same structure as the DAS course with the test taken on a restricted bike, on reaching age 24 or after 2 years have passed, an A2 licence holder may upgrade to an unlimited licence by taking both practical tests on a full power bike.</p>
+                    <p>You can get your full (category A) motorcycle licence using the direct access scheme (DAS) if
+                        you’re aged 24 or over. You’ll have to pass the motorcycle practical tests on a machine of at
+                        least 40 kW (53.6 bhp).
+                        <br /> Taking direct access means you’ll have a full motorcycle licence without previously
+                        holding a licence for a smaller bike for two years – you’ll have no restriction on the size of
+                        machine you can ride.
+                        <br /> The A2 Motorbike licence is designed for people between 19 - 23 years old. The A2 licence
+                        follows the same structure as the DAS course with the test taken on a restricted bike, on
+                        reaching age 24 or after 2 years have passed, an A2 licence holder may upgrade to an unlimited
+                        licence by taking both practical tests on a full power bike.</p>
                 </div>
                 <div class="price">£1,095</div>
                 <div class="button">
-                    <button><a href="mailto:info@motorradtraining.co.uk?subject=DAS Enquiry" onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/JQPjCNKQi60BEN_39fgC'});">enquire</a></button>
+                    <button><a href="mailto:info@motorradtraining.co.uk?subject=DAS Enquiry"
+                            onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/JQPjCNKQi60BEN_39fgC'});">enquire</a></button>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -410,7 +440,8 @@
                 </div>
                 <div class="price">£500</div>
                 <div class="button">
-                    <button><a href="mailto:info@motorradtraining.co.uk?subject=Unlimited DAS / A2 Enquiry" onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/IW1pCPC5_6wBEN_39fgC'});">enquire</a></button>
+                    <button><a href="mailto:info@motorradtraining.co.uk?subject=Unlimited DAS / A2 Enquiry"
+                            onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/IW1pCPC5_6wBEN_39fgC'});">enquire</a></button>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -420,12 +451,18 @@
             <div class="panel">
                 <div class="course">Enhanced Rider Scheme / Advanced</div>
                 <div class="description">
-                    <p>Taking extra training after you’ve passed your test will help you get the most out of riding – whether you’ve passed recently, been riding for years, upgraded to a bigger motorbike or returned to riding after a break.
-                        <br/> The enhanced rider scheme is a training course aimed at all motorbike riders. It checks and improves your riding skills and confidence on the road. As well as making riding more enjoyable and safer, completing the scheme can give you discounts on your motorbike insurance.</p>
+                    <p>Taking extra training after you’ve passed your test will help you get the most out of riding –
+                        whether you’ve passed recently, been riding for years, upgraded to a bigger motorbike or
+                        returned to riding after a break.
+                        <br /> The enhanced rider scheme is a training course aimed at all motorbike riders. It checks
+                        and improves your riding skills and confidence on the road. As well as making riding more
+                        enjoyable and safer, completing the scheme can give you discounts on your motorbike insurance.
+                    </p>
                 </div>
                 <div class="price">£150</div>
                 <div class="button">
-                    <button><a href="mailto:info@motorradtraining.co.uk?subject=ERS / Advanced Enquiry" onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/jxRyCNiQi60BEN_39fgC'});">enquire</a></button>
+                    <button><a href="mailto:info@motorradtraining.co.uk?subject=ERS / Advanced Enquiry"
+                            onclick="gtag('event', 'conversion', {'send_to': 'AW-790461407/jxRyCNiQi60BEN_39fgC'});">enquire</a></button>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -435,53 +472,82 @@
         </section>
         <section class="section static footer">
             <div class="footer">
+                <div style="float: left;">
                 <table style="border: none; font-size: 14px;">
                     <tr>
                         <td style="border-right: 2px solid #1186C8; padding-right: 10px;">
-                            <a href="http://www.motorradtraining.co.uk"><img src="img/logo.png" width="100"/><a>
+                            <a href="http://www.motorradtraining.co.uk"><img src="img/logo.png" width="100" /><a>
                         </td>
                         <td style="padding-left: 10px; font-size: 0.7em; color: #333; text-decoration: none;">
                             <div class="name" style="font-weight: bold;">Motorrad Training</div>
                             <div class="title"><i>Unit 7a/2, Dalhousie Business Park, Bonnyrigg, EH19 3HY</i></div>
-                            <div class="site"><a href="http://www.motorradtraining.co.uk">www.motorradtraining.co.uk</a></div>
-            <div class="email"><a href="mailto:info@motorradtraining.co.uk">info@motorradtraining.co.uk</a></div>
-            <div class="phone"><a href="tel:0131 603 5466">0131 603 5466</a><span style="padding-left: 6px; padding-right: 6px; color: #1186C8"></span></div>
-            <div style="padding-top: 14px">
-                <a href="https://www.facebook.com/motorradtrain/"><img id="facebook" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/37c183ed-cd47-4691-b9bc-d845c54c4806.png" /></a>
-                <a href="https://twitter.com/motorradtrain/"><img id="twitter" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/c694d6b5-4e53-4bd8-b9e8-a61923f4cffe.png" /></a>
-                <a href="https://www.linkedin.com/company/motorradtraining/"><img id="linkedin" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/1a5e6c32-a0d1-4e06-9566-2a9ff1f55677.png" /></a>
-                <a href="https://www.instagram.com/motorradtraining.co.uk/"><img id="instagram" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/20733471-d8c0-4262-85f5-542b336a5ea1.png" /></a>
-                <!--                <a href="https://plus.google.com/102577746454575177233"><img id="google" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/5438a100-4e5e-4172-9202-5a3c7a936350.png" /></a> -->
-            </div>
-            </td>
-            </tr>
-            </table>
+                            <div class="site"><a href="http://www.motorradtraining.co.uk">www.motorradtraining.co.uk</a>
+                            </div>
+                            <div class="email"><a
+                                    href="mailto:info@motorradtraining.co.uk">info@motorradtraining.co.uk</a></div>
+                            <div class="phone"><a href="tel:0131 603 5466">0131 603 5466</a><span
+                                    style="padding-left: 6px; padding-right: 6px; color: #1186C8"></span></div>
+                            <div style="padding-top: 14px">
+                                <a href="https://www.facebook.com/motorradtrain/"><img id="facebook"
+                                        src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/37c183ed-cd47-4691-b9bc-d845c54c4806.png" /></a>
+                                <a href="https://twitter.com/motorradtrain/"><img id="twitter"
+                                        src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/c694d6b5-4e53-4bd8-b9e8-a61923f4cffe.png" /></a>
+                                <a href="https://www.linkedin.com/company/motorradtraining/"><img id="linkedin"
+                                        src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/1a5e6c32-a0d1-4e06-9566-2a9ff1f55677.png" /></a>
+                                <a href="https://www.instagram.com/motorradtraining.co.uk/"><img id="instagram"
+                                        src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/20733471-d8c0-4262-85f5-542b336a5ea1.png" /></a>
+                                <!--                <a href="https://plus.google.com/102577746454575177233"><img id="google" src="https://gallery.mailchimp.com/4bab2b6cbe384b82e4e31426c/images/5438a100-4e5e-4172-9202-5a3c7a936350.png" /></a> -->
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+                <div style="float: right;">
+                <!-- TrustBox widget - Micro Review Count --> <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5d9dee8276882e0001e9f1ca" data-style-height="24px" data-style-width="100%" data-theme="light"> <a href="https://uk.trustpilot.com/review/motorradtraining.co.uk" target="_blank" rel="noopener">Trustpilot</a> </div> <!-- End TrustBox widget -->
+</div>
             </div>
         </section>
     </main>
     <script>
-    // Initialize and add the map
-    function initMap() {
-        var mt = { lat: 55.861951, lng: -3.090669 };
-        var centre = { lat: 55.98, lng: -3.090669 };
-        var map = new google.maps.Map(
-            document.getElementById('map'), { zoom: 9, center: centre, gestureHandling: 'cooperative' });
-        // The marker, positioned at Uluru
-        var marker = new google.maps.Marker({ position: mt, map: map });
+        // Initialize and add the map
+        function initMap() {
+            var mt = {
+                lat: 55.861951,
+                lng: -3.090669
+            };
+            var centre = {
+                lat: 55.98,
+                lng: -3.090669
+            };
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 9,
+                    center: centre,
+                    gestureHandling: 'cooperative'
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: mt,
+                map: map
+            });
 
-        var contentString = '<div>Motorrad Training,<br/>Dalhousie Business Park,<br/>Bonnyrigg, EH19 3HY<br/><br/><a href="mailto:info@motorradtraining.co.uk">info@motorradtraining.co.uk</a><br/><a href="tel:0131 603 5466">0131 603 5466</a><br/><br/><a href="https://www.google.co.uk/maps/dir//motorradtraining.co.uk,+Dalhousie+Business+Park,+Bonnyrigg+EH19+3HY/@55.8618685,-3.093032,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4887bf8550a71ac3:0x626489e49991d6c3!2m2!1d-3.0908433!2d55.8618655!3e0">Get directions</a></div>';
+            var contentString =
+                '<div>Motorrad Training,<br/>Dalhousie Business Park,<br/>Bonnyrigg, EH19 3HY<br/><br/><a href="mailto:info@motorradtraining.co.uk">info@motorradtraining.co.uk</a><br/><a href="tel:0131 603 5466">0131 603 5466</a><br/><br/><a href="https://www.google.co.uk/maps/dir//motorradtraining.co.uk,+Dalhousie+Business+Park,+Bonnyrigg+EH19+3HY/@55.8618685,-3.093032,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4887bf8550a71ac3:0x626489e49991d6c3!2m2!1d-3.0908433!2d55.8618655!3e0">Get directions</a></div>';
 
-        var infowindow = new google.maps.InfoWindow({ content: contentString });
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
 
-        infowindow.open(map, marker);
-    }
+            infowindow.open(map, marker);
+        }
     </script>
     <!--Load the API from the specified URL
     * The async attribute allows the browser to render the page while the API loads
     * The key parameter will contain your own API key (which is not needed for this tutorial)
     * The callback parameter executes the initMap() function
     -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkKu4_iIWJir4wQ-VKRzR3XE0lU9eJsqg&callback=initMap">
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkKu4_iIWJir4wQ-VKRzR3XE0lU9eJsqg&callback=initMap">
     </script>
 </body>
 
